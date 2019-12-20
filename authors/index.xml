@@ -5,7 +5,7 @@
     <link>/authors/</link>
       <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,12 +13,59 @@
     </image>
     
     <item>
+      <title>Hongmian Shui</title>
+      <link>/authors/hongmian-shui/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/hongmian-shui/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wenjun Zhang</title>
+      <link>/authors/wenjun-zhang/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/wenjun-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaoji Zhou</title>
+      <link>/authors/xiaoji-zhou/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/xiaoji-zhou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xinxin Guo</title>
+      <link>/authors/xinxin-guo/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/xinxin-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xuzong Chen</title>
+      <link>/authors/xuzong-chen/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/xuzong-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhihan Li</title>
+      <link>/authors/zhihan-li/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/zhihan-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title></title>
       <link>/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>/authors/admin/</guid>
-      <description>&lt;p&gt;Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.&lt;/p&gt;
+      <description>&lt;p&gt;Welcome to Wenjun Zhang&#39;s homepage! I am a senior year undergraduate student at Peking University. Atomic, molecular and optical (AMO) physics and quantum simulation capture my research interest. I did several research projects on ultracold quantum gases, optical lattices, matter-wave interferometer, and spin chains. Ultracold systems are clean and highly tunable, making them perfect platforms to perform quantum simulation and high-precision metrology. Now I am seeking for a Ph.D. position in physics or applied physics, and I hope to do some research on many-body physics or dynamics with ultracold systems.&lt;/p&gt;
 </description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/img/icon-192.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Asymmetric Population of Momentum Distribution by Quasi-Periodically Driving a Triangular Optical Lattice</title>
+      <link>/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
