@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags | Academic</title>
-    <link>/tags/</link>
-      <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <title>Tags | Wenjun Zhang</title>
+    <link>https://zhang-wenjun.github.io/tags/</link>
+      <atom:link href="https://zhang-wenjun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang`©``2019`</copyright><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Tags</title>
-      <link>/tags/</link>
+      <link>https://zhang-wenjun.github.io/tags/</link>
     </image>
     
     <item>
       <title>driven system</title>
-      <link>/tags/driven-system/</link>
+      <link>https://zhang-wenjun.github.io/tags/driven-system/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/driven-system/</guid>
+      <guid>https://zhang-wenjun.github.io/tags/driven-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>optical lattice</title>
-      <link>/tags/optical-lattice/</link>
+      <link>https://zhang-wenjun.github.io/tags/optical-lattice/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/tags/optical-lattice/</guid>
+      <guid>https://zhang-wenjun.github.io/tags/optical-lattice/</guid>
       <description></description>
     </item>
     

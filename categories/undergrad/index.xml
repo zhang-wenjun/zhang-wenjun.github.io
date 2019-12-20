@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>undergrad | Academic</title>
-    <link>/categories/undergrad/</link>
-      <atom:link href="/categories/undergrad/index.xml" rel="self" type="application/rss+xml" />
+    <title>undergrad | Wenjun Zhang</title>
+    <link>https://zhang-wenjun.github.io/categories/undergrad/</link>
+      <atom:link href="https://zhang-wenjun.github.io/categories/undergrad/index.xml" rel="self" type="application/rss+xml" />
     <description>undergrad</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang`©``2019`</copyright><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/icon-192.png</url>
+      <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>undergrad</title>
-      <link>/categories/undergrad/</link>
+      <link>https://zhang-wenjun.github.io/categories/undergrad/</link>
     </image>
     
     <item>
       <title>Asymmetric Population of Momentum Distribution by Quasi-Periodically Driving a Triangular Optical Lattice</title>
-      <link>/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</link>
+      <link>https://zhang-wenjun.github.io/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</guid>
+      <guid>https://zhang-wenjun.github.io/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</guid>
       <description></description>
     </item>
     
