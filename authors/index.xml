@@ -5,7 +5,7 @@
     <link>https://zhang-wenjun.github.io/authors/</link>
       <atom:link href="https://zhang-wenjun.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,17 +13,17 @@
     </image>
     
     <item>
-      <title>Hongmian Shui</title>
-      <link>https://zhang-wenjun.github.io/authors/hongmian-shui/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://zhang-wenjun.github.io/authors/hongmian-shui/</guid>
+      <title>Shengjie Jin</title>
+      <link>https://zhang-wenjun.github.io/authors/shengjie-jin/</link>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/authors/shengjie-jin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Wenjun Zhang</title>
       <link>https://zhang-wenjun.github.io/authors/wenjun-zhang/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/authors/wenjun-zhang/</guid>
       <description></description>
     </item>
@@ -31,15 +31,23 @@
     <item>
       <title>Xiaoji Zhou</title>
       <link>https://zhang-wenjun.github.io/authors/xiaoji-zhou/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/authors/xiaoji-zhou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaopeng Li</title>
+      <link>https://zhang-wenjun.github.io/authors/xiaopeng-li/</link>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/authors/xiaopeng-li/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Xinxin Guo</title>
       <link>https://zhang-wenjun.github.io/authors/xinxin-guo/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/authors/xinxin-guo/</guid>
       <description></description>
     </item>
@@ -47,8 +55,40 @@
     <item>
       <title>Xuzong Chen</title>
       <link>https://zhang-wenjun.github.io/authors/xuzong-chen/</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/authors/xuzong-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pengju Tang</title>
+      <link>https://zhang-wenjun.github.io/authors/pengju-tang/</link>
+      <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/authors/pengju-tang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiangyu Dong</title>
+      <link>https://zhang-wenjun.github.io/authors/xiangyu-dong/</link>
+      <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/authors/xiangyu-dong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunhong Li</title>
+      <link>https://zhang-wenjun.github.io/authors/yunhong-li/</link>
+      <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/authors/yunhong-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hongmian Shui</title>
+      <link>https://zhang-wenjun.github.io/authors/hongmian-shui/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/authors/hongmian-shui/</guid>
       <description></description>
     </item>
     
@@ -65,7 +105,7 @@
       <link>https://zhang-wenjun.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;Welcome to Wenjun Zhang&#39;s homepage! I am a senior year undergraduate student at Peking University. Atomic, molecular and optical (AMO) physics and quantum simulation capture my research interest. In particular, ultracold systems are clean and highly tunable, making them perfect platforms to perform quantum simulation and high-precision metrology. Since my sophomore year, I did several research projects on ultracold quantum gases, optical lattices, matter-wave interferometer, and spin chains. Now I am seeking for a Ph.D. position in physics or applied physics, and I hope to do some research on many-body physics or optical lattice orbital physics or dynamics with ultracold systems.&lt;/p&gt;
+      <description>&lt;p&gt;Welcome to Wenjun Zhang&#39;s homepage! I am a senior year undergraduate student at Peking University. My research interests include atomic, molecular and optical (AMO) physics and quantum simulation. In particular, ultracold systems are clean and highly tunable, making them perfect platforms to perform quantum simulation and high-precision metrology. Since my sophomore year, I did several research projects on ultracold quantum gases, optical lattices, matter-wave interferometer, and spin chains. &lt;strong&gt;Now I am seeking for a Ph.D. position&lt;/strong&gt; in physics or applied physics, and I hope to do some research on many-body physics or optical lattice orbital physics or dynamics with ultracold systems.&lt;/p&gt;
 </description>
     </item>
     

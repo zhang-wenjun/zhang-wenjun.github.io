@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BEC | Wenjun Zhang</title>
+    <link>https://zhang-wenjun.github.io/tags/bec/</link>
+      <atom:link href="https://zhang-wenjun.github.io/tags/bec/index.xml" rel="self" type="application/rss+xml" />
+    <description>BEC</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Thu, 24 Oct 2019 02:26:49 +0000</lastBuildDate>
+    <image>
+      <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
+      <title>BEC</title>
+      <link>https://zhang-wenjun.github.io/tags/bec/</link>
+    </image>
+    
+    <item>
+      <title>Implementation of a Double-Path Multi-Mode Interferometer Using Spinor BEC</title>
+      <link>https://zhang-wenjun.github.io/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</link>
+      <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
