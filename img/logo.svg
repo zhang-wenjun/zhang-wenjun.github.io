@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1056"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo2.svg">
+  <defs
+     id="defs1050" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="163.98919"
+     inkscape:cy="1002.1521"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1053">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="translate(-122.00479,-21.824459)"
+       id="g959-1"
+       style="fill:#00b2ff;fill-opacity:1;stroke:none;stroke-opacity:1">
+      <text
+         transform="scale(1.0841042,0.92242057)"
+         id="text949-5"
+         y="39.777134"
+         x="113.38176"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.52731514px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;letter-spacing:0px;word-spacing:0px;fill:#00b2ff;fill-opacity:1;stroke:none;stroke-width:0.53818285;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#00b2ff;fill-opacity:1;stroke:none;stroke-width:0.53818285;stroke-opacity:1"
+           y="39.777134"
+           x="113.38176"
+           id="tspan947-0"
+           sodipodi:role="line">W</tspan></text>
+      <text
+         transform="scale(1.16138,0.8610446)"
+         id="text953-4"
+         y="42.612289"
+         x="113.99616"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.0618px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;letter-spacing:0px;word-spacing:0px;fill:#00b2ff;fill-opacity:1;stroke:none;stroke-width:0.576545;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#00b2ff;fill-opacity:1;stroke:none;stroke-width:0.576545;stroke-opacity:1"
+           y="42.612289"
+           x="113.99616"
+           id="tspan951-2"
+           sodipodi:role="line">J</tspan></text>
+    </g>
+    <g
+       transform="translate(-122.62751,-22.882802)"
+       id="g959"
+       style="fill:#0000c7;fill-opacity:1">
+      <text
+         transform="scale(1.0841042,0.92242057)"
+         id="text949"
+         y="39.777134"
+         x="113.38176"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.52731514px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;letter-spacing:0px;word-spacing:0px;fill:#0000c7;fill-opacity:1;stroke:none;stroke-width:0.53818285"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#0000c7;fill-opacity:1;stroke-width:0.53818285"
+           y="39.777134"
+           x="113.38176"
+           id="tspan947"
+           sodipodi:role="line">W</tspan></text>
+      <text
+         transform="scale(1.16138,0.8610446)"
+         id="text953"
+         y="42.612289"
+         x="113.99616"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.0618px;line-height:1.25;font-family:Consolas;-inkscape-font-specification:Consolas;letter-spacing:0px;word-spacing:0px;fill:#0000c7;fill-opacity:1;stroke:none;stroke-width:0.576545"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#0000c7;fill-opacity:1;stroke-width:0.576545"
+           y="42.612289"
+           x="113.99616"
+           id="tspan951"
+           sodipodi:role="line">J</tspan></text>
+    </g>
+  </g>
+</svg>
