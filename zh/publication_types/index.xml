@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | 张文军</title>
+    <link>https://zhang-wenjun.github.io/zh/publication_types/</link>
+      <atom:link href="https://zhang-wenjun.github.io/zh/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
+    <image>
+      <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
+      <title>Publication_types</title>
+      <link>https://zhang-wenjun.github.io/zh/publication_types/</link>
+    </image>
+    
+    <item>
+      <title>3</title>
+      <link>https://zhang-wenjun.github.io/zh/publication_types/3/</link>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/publication_types/3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>https://zhang-wenjun.github.io/zh/publication_types/2/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

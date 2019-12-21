@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hongmian Shui | 张文军</title>
+    <link>https://zhang-wenjun.github.io/zh/authors/hongmian-shui/</link>
+      <atom:link href="https://zhang-wenjun.github.io/zh/authors/hongmian-shui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Hongmian Shui</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
+      <title>Hongmian Shui</title>
+      <link>https://zhang-wenjun.github.io/zh/authors/hongmian-shui/</link>
+    </image>
+    
+    <item>
+      <title>Asymmetric Population of Momentum Distribution by Quasi-Periodically Driving a Triangular Optical Lattice</title>
+      <link>https://zhang-wenjun.github.io/zh/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | 张文军</title>
+    <link>https://zhang-wenjun.github.io/zh/post/</link>
+      <atom:link href="https://zhang-wenjun.github.io/zh/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2019</copyright>
+    <image>
+      <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
+      <title>Posts</title>
+      <link>https://zhang-wenjun.github.io/zh/post/</link>
+    </image>
+    
+  </channel>
+</rss>

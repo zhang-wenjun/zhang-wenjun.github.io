@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wenjun Zhang | 张文军</title>
+    <link>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</link>
+      <atom:link href="https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Wenjun Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
+    <image>
+      <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
+      <title>Wenjun Zhang</title>
+      <link>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</link>
+    </image>
+    
+    <item>
+      <title>Dynamical Emergence of a Potts-Nematic Superfluid in a Hexagonal sp2 Optical Lattice</title>
+      <link>https://zhang-wenjun.github.io/zh/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</link>
+      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementation of a Double-Path Multi-Mode Interferometer Using Spinor BEC</title>
+      <link>https://zhang-wenjun.github.io/zh/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</link>
+      <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Asymmetric Population of Momentum Distribution by Quasi-Periodically Driving a Triangular Optical Lattice</title>
+      <link>https://zhang-wenjun.github.io/zh/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
