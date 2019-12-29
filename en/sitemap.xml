@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zhang-wenjun.github.io/authors/</loc>
+    <lastmod>2019-12-28T20:12:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/post/interesting-topics/</loc>
+    <lastmod>2019-12-28T20:12:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/post/</loc>
+    <lastmod>2019-12-28T20:12:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/</loc>
+    <lastmod>2019-12-28T20:12:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/authors/wenjun-zhang/</loc>
+    <lastmod>2019-12-28T20:12:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/authors/wenjun-zhang/"
+                />
+  </url>
+  
+  <url>
     <loc>https://zhang-wenjun.github.io/publication_types/3/</loc>
     <lastmod>2019-10-25T18:00:02+00:00</lastmod>
     <xhtml:link
@@ -14,21 +79,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://zhang-wenjun.github.io/publication_types/3/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhang-wenjun.github.io/authors/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/authors/"
                 />
   </url>
   
@@ -164,36 +214,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://zhang-wenjun.github.io/categories/undergrad/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhang-wenjun.github.io/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhang-wenjun.github.io/authors/wenjun-zhang/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/authors/wenjun-zhang/"
                 />
   </url>
   
@@ -433,20 +453,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://zhang-wenjun.github.io/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhang-wenjun.github.io/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/post/"
                 />
   </url>
   

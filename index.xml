@@ -5,12 +5,61 @@
     <link>https://zhang-wenjun.github.io/</link>
       <atom:link href="https://zhang-wenjun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenjun Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Sat, 28 Dec 2019 20:12:42 -0500</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Wenjun Zhang</title>
       <link>https://zhang-wenjun.github.io/</link>
     </image>
+    
+    <item>
+      <title>Interesting Topics</title>
+      <link>https://zhang-wenjun.github.io/post/interesting-topics/</link>
+      <pubDate>Sat, 28 Dec 2019 20:12:42 -0500</pubDate>
+      <guid>https://zhang-wenjun.github.io/post/interesting-topics/</guid>
+      <description>&lt;p&gt;This post contains a list of topics that I am interested in or that I find important, though some of them could be at introductory level. When having enough time, I intend to make literature survey about them and write reviews or pedagogical introductions for freshman in AMO research, as well as for myself to go over through them.&lt;/p&gt;
+&lt;h2 id=&#34;statistical-mechanics--quantum-information&#34;&gt;Statistical mechanics / Quantum information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Integrability of quantum systems
+&lt;ul&gt;
+&lt;li&gt;(Algebraic) &lt;a href=&#34;https://en.wikipedia.org/wiki/Bethe_ansatz&#34;&gt;Bethe ansantz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation&#34;&gt;Yang–Baxter equation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading list:
+&lt;ul&gt;
+&lt;li&gt;Algebraic Aspects of Bethe-Ansatz (&lt;a href=&#34;https://arxiv.org/abs/hep-th/9404013&#34;&gt;arXiv:hep-th/9404013&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;A pedagogical introduction to quantum integrability &amp;hellip; (&lt;a href=&#34;https://arxiv.org/abs/1501.06805&#34;&gt;arXiv:1501.06805&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;On the Integrability of the Rabi Model (&lt;a href=&#34;http://arxiv.org/abs/1103.2461&#34;&gt;arXiv:1103.2461&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Integrable time-dependent quantum Hamiltonians (&lt;a href=&#34;https://arxiv.org/abs/1711.09945&#34;&gt;arXiv:1711.09945&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Introduction to the Bethe ansatz (I, II and III) (&lt;a href=&#34;https://arxiv.org/abs/cond-mat/9809162&#34;&gt;arXiv:cond-mat/9809162&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Unitary group
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Haar_measure&#34;&gt;Haar measure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Circular_ensemble&#34;&gt;Circular unitary ensemble (CUE)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantum_t-design&#34;&gt;Quantum $t$-design&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Reading list:
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.springer.com/gp/book/9783642263309&#34;&gt;Quantum signatures in of chaos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exact and approximate unitary 2-designs and their application to fidelity estimation (&lt;a href=&#34;https://journals.aps.org/pra/abstract/10.1103/PhysRevA.80.012304&#34;&gt;doi:10.1103/PhysRevA.80.012304&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;atomic-physics&#34;&gt;Atomic physics&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Spin-orbit coupling&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Exchange/Super-exchange interaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Fluctuation dissipation theory.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Dynamical Emergence of a Potts-Nematic Superfluid in a Hexagonal $sp^2$ Optical Lattice</title>
