@@ -5,7 +5,7 @@
     <link>https://zhang-wenjun.github.io/zh/authors/</link>
       <atom:link href="https://zhang-wenjun.github.io/zh/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2021</copyright><lastBuildDate>Sat, 25 Jul 2020 16:34:29 +0800</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Shengjie Jin</title>
-      <link>https://zhang-wenjun.github.io/zh/authors/shengjie-jin/</link>
-      <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
-      <guid>https://zhang-wenjun.github.io/zh/authors/shengjie-jin/</guid>
+      <title>Wenjun Zhang</title>
+      <link>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</link>
+      <pubDate>Sat, 25 Jul 2020 16:34:29 +0800</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Wenjun Zhang</title>
-      <link>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</link>
+      <title>Shengjie Jin</title>
+      <link>https://zhang-wenjun.github.io/zh/authors/shengjie-jin/</link>
       <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
-      <guid>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</guid>
+      <guid>https://zhang-wenjun.github.io/zh/authors/shengjie-jin/</guid>
       <description></description>
     </item>
     
@@ -105,7 +105,7 @@
       <link>https://zhang-wenjun.github.io/zh/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/zh/authors/admin/</guid>
-      <description>&lt;p&gt;欢迎来到我的个人主页！我就读于北京大学电子信息科学与技术专业，研究兴趣主要包括原子分子光学物理、量子模拟等。尤其是超冷原子、分子系统，它们非常纯净而且高度可控，因而成为了进行量子模拟和精密测量的良好平台。自从大二开始，我进行了几段关于超冷量子气体、光晶格、物质波干涉仪和自旋链等方面的科研。现在我正在申请物理或应用物理方向的博士学位，我希望在博士期间科研研究一些关于多体物理、光晶格轨道物理或动力学的相关课题。&lt;/p&gt;
+      <description>&lt;p&gt;欢迎来到我的个人主页！我就读于芝加哥大学普利兹克分子工程学院，现师从Hannes Bernien教授攻读博士。我的研究兴趣主要包括原子分子光学物理、量子模拟等。我们使用激发至高主量子数的原子，即里德堡原子，研究长程相互作用的量子多体体系。&lt;/p&gt;
 </description>
     </item>
     

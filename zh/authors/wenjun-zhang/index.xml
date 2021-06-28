@@ -5,7 +5,7 @@
     <link>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</link>
       <atom:link href="https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenjun Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh</language><copyright>Wenjun Zhang © 2021</copyright><lastBuildDate>Sat, 25 Jul 2020 16:34:29 +0800</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Wenjun Zhang</title>
@@ -13,15 +13,26 @@
     </image>
     
     <item>
-      <title>Dynamical Emergence of a Potts-Nematic Superfluid in a Hexagonal $sp^2$ Optical Lattice</title>
-      <link>https://zhang-wenjun.github.io/zh/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</link>
+      <title>毕业</title>
+      <link>https://zhang-wenjun.github.io/zh/post/%E6%AF%95%E4%B8%9A/</link>
+      <pubDate>Sat, 25 Jul 2020 16:34:29 +0800</pubDate>
+      <guid>https://zhang-wenjun.github.io/zh/post/%E6%AF%95%E4%B8%9A/</guid>
+      <description>&lt;p&gt;谁都没有预料到，一场疫情在2020年蔓延到全球各地，让我们都被困在家里。当我写下这篇文章的时候，距离我上一次在实验室工作似乎已经有9个月了。2020年春季学期，我本科的最后一个学期，我们在家准备毕业论文（还经常打不开期刊网站…）。本想做一个实验课题，但无奈只好写写理论。今天早晨，我登进北大门户，发现已经找不到燕园云战疫这个按钮了。据说门户已经变成了校友账号，而且北大网盘也用不了了。（第一次体验毕业的后果）。这是一场特别的毕业。感谢所有的医生、护士、志愿者，还有那些我不知道名字的英雄们，我们正在恢复到正常生活，虽然还是要戴口罩。感谢所有奋战在抗击疫情一线的战士们！谢谢你们。&lt;/p&gt;
+&lt;p&gt;不过，其实待在家里也有好处。这让我能在出国读博前有更多时间陪陪父母，也让我能静下心来去学一些以前想看而没时间看的东西。今年年初，我在MIT做本科生RA的时候，我从两位MIT的PhD学长身上我学到了很多东西。他们和我说，每个物理系的学生都应该对&lt;strong&gt;广义相对论&lt;/strong&gt;和&lt;strong&gt;量子场论&lt;/strong&gt;有所了解。但当时我对此并没有太多感觉。在这半年时间里，我在北大听了一门广相。我非常喜欢用几何学的观点来描述引力。无论是有趣的物理直觉，还是优美的数学结构（微分几何）都让我不能自已。我自己也学了一点点场论的知识。虽然一些教科书中介绍了很多技术，但我觉得并没有得到太多感悟。我甚至觉得场论只不过是一堆杂乱的工具。当然实际情况绝对不是这样。最近我在芝大的PME找老板，做了一些关于量子自旋液体的调研，感觉拓扑序，或者更一般的量子序实在有趣。读了文小刚教授的一些论文，非常喜欢。后来我就去拜读他的著作，&lt;em&gt;《多体系统的量子场论，从声子的起源到光子和电子的起源》&lt;/em&gt;。也有幸听了南科大和北大联合举办的拓扑系列讲座，特别是文小刚教授、吴咏时教授和南科大、香港几个学校的大佬们的讲座。总之，今年上半年我读的这两个主题（尽管理解仍然非常浅薄），让我回想起我最初选择物理时，那种对我们宇宙的起源的好奇，以及由此产生的冲动——如同久恋的情侣找回了初见时的心动。当然，作为一个志向成为实验物理学家的入门选手，我还要考虑一些更多实验方面的事情。&lt;/p&gt;
+&lt;p&gt;第一篇博客就写到这里。感觉更像是日记。不过无所谓，慢慢的我会把我的一些见解放上来。我写这些的初衷是帮我自己理清思路（或许算是一种费曼学习法。我觉得给别人讲自己对一个理论的理解的时候通常也能加深自己的理解），如果我的这些笔记能帮助后来的初学者，就更好了。我会先用英文来写，有时间再翻译成中文。这纯粹是为了练习英语写作和与新同事交流的方便。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evidence of Potts-Nematic Superfluidity in a Hexagonal $sp^2$ Optical Lattice</title>
+      <link>https://zhang-wenjun.github.io/zh/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/</link>
       <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
-      <guid>https://zhang-wenjun.github.io/zh/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</guid>
+      <guid>https://zhang-wenjun.github.io/zh/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Implementation of a Double-Path Multi-Mode Interferometer Using Spinor BEC</title>
+      <title>Implementation of a Double-Path Multi-Mode Interferometer Using a Spinor Bose-Einstein Condensate</title>
       <link>https://zhang-wenjun.github.io/zh/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</link>
       <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/zh/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</guid>

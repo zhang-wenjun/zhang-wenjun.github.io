@@ -5,7 +5,7 @@
     <link>https://zhang-wenjun.github.io/authors/xiaoji-zhou/</link>
       <atom:link href="https://zhang-wenjun.github.io/authors/xiaoji-zhou/index.xml" rel="self" type="application/rss+xml" />
     <description>Xiaoji Zhou</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2021</copyright><lastBuildDate>Fri, 25 Oct 2019 18:00:02 +0000</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Xiaoji Zhou</title>
@@ -13,15 +13,15 @@
     </image>
     
     <item>
-      <title>Dynamical Emergence of a Potts-Nematic Superfluid in a Hexagonal $sp^2$ Optical Lattice</title>
-      <link>https://zhang-wenjun.github.io/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</link>
+      <title>Evidence of Potts-Nematic Superfluidity in a Hexagonal $sp^2$ Optical Lattice</title>
+      <link>https://zhang-wenjun.github.io/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/</link>
       <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
-      <guid>https://zhang-wenjun.github.io/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</guid>
+      <guid>https://zhang-wenjun.github.io/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Implementation of a Double-Path Multi-Mode Interferometer Using Spinor BEC</title>
+      <title>Implementation of a Double-Path Multi-Mode Interferometer Using a Spinor Bose-Einstein Condensate</title>
       <link>https://zhang-wenjun.github.io/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</link>
       <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</guid>

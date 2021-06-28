@@ -5,7 +5,7 @@
     <link>https://zhang-wenjun.github.io/</link>
       <atom:link href="https://zhang-wenjun.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenjun Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2019</copyright><lastBuildDate>Sat, 28 Dec 2019 20:12:42 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2021</copyright><lastBuildDate>Sat, 25 Jul 2020 16:34:29 +0800</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Wenjun Zhang</title>
@@ -13,64 +13,26 @@
     </image>
     
     <item>
-      <title>Interesting Topics</title>
-      <link>https://zhang-wenjun.github.io/post/interesting-topics/</link>
-      <pubDate>Sat, 28 Dec 2019 20:12:42 -0500</pubDate>
-      <guid>https://zhang-wenjun.github.io/post/interesting-topics/</guid>
-      <description>&lt;p&gt;This post contains a list of topics that I am interested in or that I find important, though some of them could be at introductory level. When having enough time, I intend to make literature survey about them and write reviews or pedagogical introductions for freshman in AMO research, as well as for myself to go over through them.&lt;/p&gt;
-&lt;h2 id=&#34;statistical-mechanics--quantum-information&#34;&gt;Statistical mechanics / Quantum information&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Integrability of quantum systems
-&lt;ul&gt;
-&lt;li&gt;(Algebraic) &lt;a href=&#34;https://en.wikipedia.org/wiki/Bethe_ansatz&#34;&gt;Bethe ansantz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation&#34;&gt;Yang–Baxter equation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading list:
-&lt;ul&gt;
-&lt;li&gt;Algebraic Aspects of Bethe-Ansatz (&lt;a href=&#34;https://arxiv.org/abs/hep-th/9404013&#34;&gt;arXiv:hep-th/9404013&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;A pedagogical introduction to quantum integrability &amp;hellip; (&lt;a href=&#34;https://arxiv.org/abs/1501.06805&#34;&gt;arXiv:1501.06805&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;On the Integrability of the Rabi Model (&lt;a href=&#34;http://arxiv.org/abs/1103.2461&#34;&gt;arXiv:1103.2461&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Integrable time-dependent quantum Hamiltonians (&lt;a href=&#34;https://arxiv.org/abs/1711.09945&#34;&gt;arXiv:1711.09945&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Introduction to the Bethe ansatz (I, II and III) (&lt;a href=&#34;https://arxiv.org/abs/cond-mat/9809162&#34;&gt;arXiv:cond-mat/9809162&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Unitary group
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Haar_measure&#34;&gt;Haar measure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Circular_ensemble&#34;&gt;Circular unitary ensemble (CUE)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Quantum_t-design&#34;&gt;Quantum $t$-design&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading list:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.springer.com/gp/book/9783642263309&#34;&gt;Quantum signatures in of chaos&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Exact and approximate unitary 2-designs and their application to fidelity estimation (&lt;a href=&#34;https://journals.aps.org/pra/abstract/10.1103/PhysRevA.80.012304&#34;&gt;doi:10.1103/PhysRevA.80.012304&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;atomic-physics&#34;&gt;Atomic physics&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Spin-orbit coupling&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Exchange/Super-exchange interaction&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Fluctuation dissipation theory.&lt;/li&gt;
-&lt;/ul&gt;
+      <title>Graduation</title>
+      <link>https://zhang-wenjun.github.io/post/graduation/</link>
+      <pubDate>Sat, 25 Jul 2020 16:34:29 +0800</pubDate>
+      <guid>https://zhang-wenjun.github.io/post/graduation/</guid>
+      <description>&lt;p&gt;I had never expected this pandemic spreading all over the globe and keeping all of us stuck in home. No one had. By the time I write down this post, it seems to have been 9 months since I worked in a lab last time. In the 2020 Spring semester, the very last semester of my undergraduate life, we have to prepare our bachelor thesis at home (with poor access to all the journals!), and change from an experimental subject to a theoretical one. This morning, when I routinely checked in my PKU portal to fill in the &lt;em&gt;fighting-the-pandemic&lt;/em&gt; sheet, I couldn&#39;t find it anywhere. The portal has been modified from a student account to an alumni one. It is said that we don&#39;t have access to the PKU disk anymore, either. Luckily I&#39;m not a frequent user. It was exactly this moment when I realized, I graduated. I believe this is gonna be the most special and unforgettable graduation. Thanks to all the doctors, nurses, and volunteers, and all those heros whose names I don&#39;t know, we&#39;re getting back to a more or less normal life, though we&#39;d still better wear face masks. Thank you all to the &amp;lsquo;soldiers&amp;rsquo; fighting in the frontline against the pandemic!&lt;/p&gt;
+&lt;p&gt;Actually, staying at home is not that bad. I have to say that I indeed acquire something thanks to this staying-at-home thing. Earlier this year when I worked as an undergraduate research assistant at MIT, two of my friends who are Ph.D. students at the Research Laboratory of Electronics, shared with me that every physics student should know something about the &lt;strong&gt;general relativity&lt;/strong&gt; and the &lt;strong&gt;quantum field theory&lt;/strong&gt;. I didn&#39;t have many ideas about this at that time. In this half a year, I followed a course in GR at PKU. I really like the idea of describing the whole world from a geometrical point of view. Both the interesting physical intuition and the beautiful mathematical structure impressed me. I also learned something about the QFT by myself. Though there are many techniques introduced in the texts, I don&#39;t feel like getting too much insights. I even thought the QFT was nothing but a bunch of dirty tools, which is certainly not true. Recently I am doing a survey on the quantum spin liquids. I instantaneously find myself quite interested in the topological order or the more general concept quantum order. I read some papers by Prof. Xiao-Gang Wen at MIT and really liked them. This leads me to reading his texts, &lt;em&gt;Quantum Field Theory of Many Body Systems From the Origin of Sound to an Origin of Light and Electrons&lt;/em&gt;. I am really fascinated by his explanation and his emphasis the origin of our fundamental particles. They could be just low-energy excitations of some unknown field theory. And our universe could be nothing but a vacuum state that we&#39;re familiar with in the condensed matter context. These two things made me again curious about the origin of our universe.&lt;/p&gt;
+&lt;p&gt;Okay. That&#39;s all for my first post. It is more like a diary. But whatever, I&#39;ll put up some of my notes on the quantum spin liquids, which is more research oriented.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Dynamical Emergence of a Potts-Nematic Superfluid in a Hexagonal $sp^2$ Optical Lattice</title>
-      <link>https://zhang-wenjun.github.io/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</link>
+      <title>Evidence of Potts-Nematic Superfluidity in a Hexagonal $sp^2$ Optical Lattice</title>
+      <link>https://zhang-wenjun.github.io/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/</link>
       <pubDate>Fri, 25 Oct 2019 18:00:02 +0000</pubDate>
-      <guid>https://zhang-wenjun.github.io/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</guid>
+      <guid>https://zhang-wenjun.github.io/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Implementation of a Double-Path Multi-Mode Interferometer Using Spinor BEC</title>
+      <title>Implementation of a Double-Path Multi-Mode Interferometer Using a Spinor Bose-Einstein Condensate</title>
       <link>https://zhang-wenjun.github.io/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</link>
       <pubDate>Thu, 24 Oct 2019 02:26:49 +0000</pubDate>
       <guid>https://zhang-wenjun.github.io/publication/implementation-of-a-double-path-multi-mode-interferometer-using-spinor-bec/</guid>

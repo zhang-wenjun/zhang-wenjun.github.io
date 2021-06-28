@@ -3,23 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://zhang-wenjun.github.io/zh/publication_types/3/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/publication_types/3/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/publication_types/3/"
-                />
-  </url>
-  
-  <url>
     <loc>https://zhang-wenjun.github.io/zh/authors/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
+    <lastmod>2020-07-25T16:34:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,6 +14,71 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zhang-wenjun.github.io/zh/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/zh/post/</loc>
+    <lastmod>2020-07-25T16:34:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</loc>
+    <lastmod>2020-07-25T16:34:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/authors/wenjun-zhang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/zh/</loc>
+    <lastmod>2020-07-25T16:34:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/zh/post/%E6%AF%95%E4%B8%9A/</loc>
+    <lastmod>2020-07-25T16:34:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zhang-wenjun.github.io/zh/publication_types/2/</loc>
+    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zhang-wenjun.github.io/publication_types/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://zhang-wenjun.github.io/zh/publication_types/2/"
                 />
   </url>
   
@@ -48,17 +98,17 @@
   </url>
   
   <url>
-    <loc>https://zhang-wenjun.github.io/zh/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/</loc>
+    <loc>https://zhang-wenjun.github.io/zh/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/</loc>
     <lastmod>2019-10-25T18:00:02+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://zhang-wenjun.github.io/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/"
+                href="https://zhang-wenjun.github.io/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/publication/dynamical-emergence-of-a-potts-nematic-superfluid-in-a-hexagonal-sp2-optical-lattice/"
+                href="https://zhang-wenjun.github.io/zh/publication/evidence-of-potts-nematic-superfluidity-in-a-hexagonal-sp2-optical-lattice/"
                 />
   </url>
   
@@ -74,21 +124,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zhang-wenjun.github.io/zh/tags/optical-lattice/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhang-wenjun.github.io/zh/tags/orbital-physics/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/tags/orbital-physics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/tags/orbital-physics/"
                 />
   </url>
   
@@ -168,21 +203,6 @@
   </url>
   
   <url>
-    <loc>https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/authors/wenjun-zhang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/authors/wenjun-zhang/"
-                />
-  </url>
-  
-  <url>
     <loc>https://zhang-wenjun.github.io/zh/authors/xiaoji-zhou/</loc>
     <lastmod>2019-10-25T18:00:02+00:00</lastmod>
     <xhtml:link
@@ -239,21 +259,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zhang-wenjun.github.io/zh/authors/xuzong-chen/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhang-wenjun.github.io/zh/</loc>
-    <lastmod>2019-10-25T18:00:02+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/"
                 />
   </url>
   
@@ -348,21 +353,6 @@
   </url>
   
   <url>
-    <loc>https://zhang-wenjun.github.io/zh/publication_types/2/</loc>
-    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/publication_types/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/publication_types/2/"
-                />
-  </url>
-  
-  <url>
     <loc>https://zhang-wenjun.github.io/zh/publication/asymmetric-population-of-momentum-distribution-by-quasi-periodically-driving-a-triangular-optical-lattice/</loc>
     <lastmod>2019-09-18T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -433,20 +423,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://zhang-wenjun.github.io/zh/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zhang-wenjun.github.io/zh/post/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zhang-wenjun.github.io/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://zhang-wenjun.github.io/zh/post/"
                 />
   </url>
   
