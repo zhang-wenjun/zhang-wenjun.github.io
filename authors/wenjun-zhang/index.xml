@@ -5,12 +5,218 @@
     <link>https://zhang-wenjun.github.io/authors/wenjun-zhang/</link>
       <atom:link href="https://zhang-wenjun.github.io/authors/wenjun-zhang/index.xml" rel="self" type="application/rss+xml" />
     <description>Wenjun Zhang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2021</copyright><lastBuildDate>Sat, 25 Jul 2020 16:34:29 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2021</copyright><lastBuildDate>Tue, 29 Jun 2021 19:17:11 +0800</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
       <title>Wenjun Zhang</title>
       <link>https://zhang-wenjun.github.io/authors/wenjun-zhang/</link>
     </image>
+    
+    <item>
+      <title>MPS</title>
+      <link>https://zhang-wenjun.github.io/post/mps/</link>
+      <pubDate>Tue, 29 Jun 2021 19:17:11 +0800</pubDate>
+      <guid>https://zhang-wenjun.github.io/post/mps/</guid>
+      <description>&lt;p&gt;This is the documentation for the &lt;a href=&#34;https://github.com/zhang-wenjun/Rydberg-Quantum-Simulator&#34;&gt;codes&lt;/a&gt; used to numerically simulate the Rydberg array systems (i.e., 2D systems with arbitrary geometry and long-range coupling). Nothing is new, but some codes are pedagogical. The codes are based on the &lt;code&gt;ITensors&lt;/code&gt; package in Julia.&lt;/p&gt;
+&lt;h1 id=&#34;about-julia&#34;&gt;About Julia&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://julialang.org/&#34;&gt;Julia&lt;/a&gt; is a flexible dynamic language, with performance comparable to traditional statically-typed languages, eliminating the trade-off between performance and productivity. It features the &lt;em&gt;just-in-time (JIT) compilation&lt;/em&gt;, which enables one to program as easily as &lt;em&gt;Python&lt;/em&gt; or &lt;em&gt;MATLAB&lt;/em&gt;, and runs as fast as &lt;em&gt;C++&lt;/em&gt;. There&#39;re already quite many packages designed for scientific computation, and one can use libraries from other languages.&lt;/p&gt;
+&lt;h2 id=&#34;installing-julia&#34;&gt;Installing Julia&lt;/h2&gt;
+&lt;p&gt;The installation is quite simple. Just download a version according to your operating system from &lt;a href=&#34;https://julialang.org/downloads/&#34;&gt;here&lt;/a&gt;, and the installer will do everything for you.&lt;/p&gt;
+&lt;p&gt;After you successfully install Julia, you can open a terminal window to start programming, like this.
+&lt;img src=&#34;julia-terminal.png&#34; alt=&#34;A Julia terminal&#34;&gt;
+Its name is REPL (read-eval-print loop).
+In here you can run scripts just like in IPython or in MATLAB command line.&lt;/p&gt;
+&lt;h2 id=&#34;programming-with-vscode&#34;&gt;Programming with VSCode&lt;/h2&gt;
+&lt;p&gt;There&#39;s a nice VSCode extension for Julia support. &lt;a href=&#34;https://www.julia-vscode.org/&#34;&gt;Julia in VSCode&lt;/a&gt; provides the dynamic autocompletion, inline results, plot pane, integrated REPL, etc. To install this extension, simply search for &lt;em&gt;Julia&lt;/em&gt; in the &lt;em&gt;Extensions&lt;/em&gt; panel in VSCode.&lt;/p&gt;
+&lt;h2 id=&#34;basics-of-julia&#34;&gt;Basics of Julia&lt;/h2&gt;
+&lt;p&gt;The documentation of Julia is super long. To get started, let&#39;s introduce some basic operations in Julia.&lt;/p&gt;
+&lt;h3 id=&#34;get-help&#34;&gt;Get help&lt;/h3&gt;
+&lt;p&gt;First, most of the built-in functions or objects (including operators like &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;^&lt;/code&gt;, etc.) in Julia or Julia packages have a documentation. To access these documentations, type &lt;code&gt;?&lt;/code&gt; in the REPL, and the interface will change from &lt;code&gt;Julia&amp;gt;&lt;/code&gt; to &lt;code&gt;help?&amp;gt;&lt;/code&gt;. Then type the name of the function/object/operator and it will return the description. For example, we get the following by typing &lt;code&gt;? +&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;help?&amp;gt; +
+search: +
+
+  +(x, y...)
+
+  Addition operator. x+y+z+... calls this function with all arguments, i.e. +(x, y, z, ...).
+
+  Examples
+  ≡≡≡≡≡≡≡≡≡≡
+
+  julia&amp;gt; 1 + 20 + 4
+  25
+
+  julia&amp;gt; +(1, 20, 4)
+  25
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With this tool, one can already explore a lot in Julia.&lt;/p&gt;
+&lt;h3 id=&#34;data-types&#34;&gt;Data types&lt;/h3&gt;
+&lt;p&gt;The data types in Julia are similar to other languages. Write a line like &lt;code&gt;x = 1&lt;/code&gt; to define a variable. Type &lt;code&gt;typeof(x)&lt;/code&gt; to check the datatype of a variable. &lt;code&gt;x = 1&lt;/code&gt; defines a &lt;code&gt;Int64&lt;/code&gt; variable, while &lt;code&gt;x = 1.0&lt;/code&gt; defines a &lt;code&gt;Float64&lt;/code&gt; variable. Similarly &lt;code&gt;x = 1.0 + 0.0im&lt;/code&gt; defines a &lt;code&gt;Complex{Float64}&lt;/code&gt; variable. &lt;code&gt;im&lt;/code&gt; is the imaginary unit in Julia. Use &lt;code&gt;Int(x)&lt;/code&gt; to convert &lt;code&gt;x&lt;/code&gt; to &lt;code&gt;Int&lt;/code&gt;. Note that converting &lt;code&gt;x = 1.2&lt;/code&gt; to &lt;code&gt;Int(x)&lt;/code&gt; will touch off an &lt;code&gt;InexactError&lt;/code&gt; since &lt;code&gt;Int&lt;/code&gt; cannot correctly store a float number. One can also make explicit declarations of data type when defining the arguments of a function, by using &lt;code&gt;&amp;lt;Arg&amp;gt;::&amp;lt;Datatype&amp;gt;&lt;/code&gt;. For example, &lt;code&gt;foo(x::Int64)&lt;/code&gt; means this function only accepts variables of data type &lt;code&gt;Int64&lt;/code&gt;. Note that explicit declaration of data type of global variables is not supported. One can use sub-type in the declaration. For example, &lt;code&gt;Real&lt;/code&gt; contains both &lt;code&gt;Int64&lt;/code&gt; and &lt;code&gt;Float64&lt;/code&gt;. Sometimes you might see &lt;code&gt;Float64&amp;lt;:Real&lt;/code&gt;, meaning &lt;code&gt;Float64&lt;/code&gt; is a sub-type of &lt;code&gt;Real&lt;/code&gt;. One can also use &lt;code&gt;Union&lt;/code&gt; to have an argument accept multiple data types. For example, the function &lt;code&gt;foo(x::Union{Int64, Float64})&lt;/code&gt; accepts both &lt;code&gt;Int64&lt;/code&gt; and &lt;code&gt;Float64&lt;/code&gt;. There&#39;s a special data type &lt;code&gt;Symbol&lt;/code&gt;. Variables like &lt;code&gt;:name&lt;/code&gt; with a colon as start is of this type. It is useful when one wants to specify, for example, the name of keyword arguments in functions.&lt;/p&gt;
+&lt;h3 id=&#34;variables&#34;&gt;Variables&lt;/h3&gt;
+&lt;p&gt;An interesting fact of Julia is that it accepts Unicode characters as variable names. For example, one can write &lt;code&gt;δ = 2&lt;/code&gt;. More interesting is with Julia in VSCode one can type $\LaTeX$ when programming. For example, one can type &lt;code&gt;δ&lt;/code&gt; by typing &lt;code&gt;\delta&lt;/code&gt; and then press &lt;code&gt;Tab&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Note that the scope of variable (or its living period) is similar to that in &lt;em&gt;C/C++&lt;/em&gt;. So if one wants to define a variable with initial value controlled by some condition, one must ensure that the definition is in proper position. For example, the codes below cannot run.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;for i = 1:N
+    if i == 1
+        var = init_value
+    else
+        var = 2 * var
+    end
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is because &lt;code&gt;var&lt;/code&gt; is defined in &lt;code&gt;i = 1&lt;/code&gt; loop and is destructed when the loop goes to &lt;code&gt;i = 2&lt;/code&gt;. Then &lt;code&gt;var&lt;/code&gt; has no definition when the program calculates &lt;code&gt;2 * var&lt;/code&gt;. Instead, one should write&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;var = some_value # with corresponding data type
+for i = 1:N
+    if i == 1
+        var = init_value
+    else
+        var = 2 * var
+    end
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One can find an example in &lt;code&gt;example/ex_MPS.jl&lt;/code&gt;. See the &lt;code&gt;bond&lt;/code&gt; variable in function &lt;code&gt;MPSfromTensor&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Defining an array is the same as in &lt;em&gt;Python&lt;/em&gt;. &lt;code&gt;arr = [1, 2, 3]&lt;/code&gt; defines a 1-by-3 array &lt;code&gt;Array{Int64, 1}&lt;/code&gt;. One can define an uninitialized multi-dimensional array by &lt;code&gt;Array{T, N}(undef, dims...)&lt;/code&gt;. Here &lt;code&gt;...&lt;/code&gt; means it accepts multiple arguments, &lt;code&gt;N&lt;/code&gt; is the order of the tensor, and &lt;code&gt;T&lt;/code&gt; is the data type. For example, &lt;code&gt;mat = Array{Float64, 2}(undef, 2, 3)&lt;/code&gt; creates a 2-by-3 matrix. The argument &lt;code&gt;N&lt;/code&gt; can be omitted, &lt;code&gt;mat = Array{Float64}(undef, 2, 3)&lt;/code&gt;. Access the element of an array by using &lt;code&gt;arr[pos1, pos2, ...]&lt;/code&gt;. Note the first element of an array is &lt;code&gt;arr[1]&lt;/code&gt; instead of &lt;code&gt;arr[0]&lt;/code&gt;. The one-dimensional and two-dimensional arrays have special aliases. &lt;code&gt;Vector{T}&lt;/code&gt; is the same as &lt;code&gt;Array{T, 1}&lt;/code&gt; and &lt;code&gt;Matrix{T}&lt;/code&gt; is the same as &lt;code&gt;Array{T, 2}&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;One can define a struct by&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;struct StructName
+    var1::&amp;lt;datatype1&amp;gt;
+    var2::&amp;lt;datatype2&amp;gt;
+    ...
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It automatically generates a constructor &lt;code&gt;StructName(var1::&amp;lt;datatype1&amp;gt;, var2::&amp;lt;datatype2&amp;gt;)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Tuple&lt;/code&gt; is also an important variable type. It is defined by, e.g., &lt;code&gt;(2, 3)&lt;/code&gt;. Julia supports the operator &lt;code&gt;+=&lt;/code&gt;. &lt;code&gt;var1 += var2&lt;/code&gt; is equivalent to &lt;code&gt;var1 = var1 + var2&lt;/code&gt;. How are codes like below processed?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;var1 += var2, var3, var4
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is equivalent to&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;var1 = var1 + (var2, var3, var4)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is how the &lt;code&gt;AutoMPO&lt;/code&gt; works.&lt;/p&gt;
+&lt;h3 id=&#34;functions&#34;&gt;Functions&lt;/h3&gt;
+&lt;p&gt;The definition of functions is very much like that in MATLAB. But it supports default value and keyword arguments.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
+This is a documentation for the function.
+One can use Markdown here.
+&amp;quot;&amp;quot;&amp;quot;
+function foo(arg1, arg2, ...,
+             arg_default1=default_value1,
+             arg_default2=default_value2,
+             ...;
+             kwargs...)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that the input of normal arguments must obey the sequence in definition. Declaration of data type is recommended but not necessary. They are separated from keyword arguments by a semicolon instead of a comma. As an example, let&#39;s calculate define a function to calculate $x^s \pm y^s$ with default value for $s$ being $2$ and $\pm$ specified by a keyword argument.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;&amp;quot;&amp;quot;&amp;quot;
+    powerSum(x::Float64, y::Float64,
+             s::Float64=2;
+             kwargs...)
+
+Calculate ``x^s \\pm y^s``.
+The default value of ``s`` is 2.
+Specify plus or minus by keyword argument `sign`.
+&amp;quot;&amp;quot;&amp;quot;
+function powerSum(x::Float64, y::Float64,
+                  s::Float64=2;
+                  kwargs...)
+    # Get the keyword arguments
+    # Default is :plus
+    sign = get(kwargs, :sign, :plus)
+    if sign == :plus
+        return x^s + y^s
+    elseif sign == :minus
+        return x^s - y^s
+    else
+        Error(&amp;quot;Only supports :plus and :minus as sign!&amp;quot;)
+    end
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By type &lt;code&gt;?powerSum&lt;/code&gt;, one can get the documentation before the definition of this function.&lt;/p&gt;
+&lt;h3 id=&#34;misc&#34;&gt;Misc.&lt;/h3&gt;
+&lt;p&gt;Use &lt;code&gt;##&lt;/code&gt; to define a block. Use &lt;code&gt;Shift+Enter&lt;/code&gt; to only run a block. Just like in Jupyter Lab.&lt;/p&gt;
+&lt;p&gt;Type &lt;code&gt;]&lt;/code&gt; for package management.&lt;/p&gt;
+&lt;h1 id=&#34;about-itensors&#34;&gt;About ITensors&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://itensor.org/&#34;&gt;ITensors&lt;/a&gt; is a nice package written in both Julia and C/C++. It allows one to program at the physics level and not to worry about the underlying mechanism of array storage and access, etc.&lt;/p&gt;
+&lt;h2 id=&#34;installing-itensors&#34;&gt;Installing ITensors&lt;/h2&gt;
+&lt;p&gt;Installing ITensors is no different from installing any packages in Julia. Just type &lt;code&gt;]&lt;/code&gt; to manage packages. You will see &lt;code&gt;pkg&amp;gt;&lt;/code&gt; instead of &lt;code&gt;julia&amp;gt;&lt;/code&gt;. Then type &lt;code&gt;add ITensors&lt;/code&gt; to install the package.&lt;/p&gt;
+&lt;h2 id=&#34;using-itensors&#34;&gt;Using ITensors&lt;/h2&gt;
+&lt;p&gt;A pedagogical introduction of this package can be found in the paper &lt;a href=&#34;https://arxiv.org/abs/2007.14822&#34;&gt;arXiv:2007.14822&lt;/a&gt;. After reading Secs. 2-5 and Sec.7 you will know the basic usage of this package.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;examples&lt;/code&gt; folder contains some pedagogical codes with full comment. This gives you some useful idea that is not covered in the introduction mentioned above. They also explain some of the underlying implementation of the ITensors built-in functions. The recommended reading sequence is:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;ex_MPS.jl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_MPO.jl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_TEBD.jl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_imagtTimeTEBD.jl&lt;/code&gt;
+Then read these for an introduction of DMRG.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_DMRG_builtin.jl&lt;/code&gt; for how to use the built-in DMRG solver.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_dmrg_simple.jl&lt;/code&gt; for a simpler but more pedagogical implementation of DMRG.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_dmrg_annotation.jl&lt;/code&gt; for an explanation of the underlying implementation of the built-in DMRG.
+Then read these for support of 2D and long-range coupled systems.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_2dHamiltonian.jl&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ex_Rydberg1D.jl&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;two-dimensional-systems-with-long-range-interaction&#34;&gt;Two-dimensional systems with long-range interaction&lt;/h1&gt;
+&lt;p&gt;The support for two-dimensional systems or long-range coupled systems is limited in ITensors Julia. I made another implementation with better support. They are defined in &lt;code&gt;latticemodels.jl&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A lattice is described by a &lt;code&gt;LatticeModel2D&lt;/code&gt; instance. It contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;LatticeModel2D.xs&lt;/code&gt;: a vector containing the $x$-coordinates of the lattice sites.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LatticeModel2D.ys&lt;/code&gt;: a vector containing the $y$-coordinates of the lattice sites.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LatticeModel2D.cplterms&lt;/code&gt;: a vector of &lt;code&gt;CplTerm&lt;/code&gt; instances.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;LatticeModel2D.links&lt;/code&gt;: a vector of &lt;code&gt;Link&lt;/code&gt; instances.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The numbering of sites define a winding path to reduce the two-dimensional system to a one-dimensional&lt;/p&gt;
+&lt;p&gt;A &lt;code&gt;CplTerm&lt;/code&gt; instance describes an interaction term in the Hamiltonian. It contains&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;CplTerm.s&lt;/code&gt;: a vector of integers marking the sites involved in this interaction term.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CplTerm.type&lt;/code&gt;: a optional string describing the term. For example, in toric code model, one can use &amp;ldquo;plaquette&amp;rdquo; and &amp;ldquo;star&amp;rdquo; to describe the term. In Kitaev Honeycomb model, one can use &amp;ldquo;x/y/z&amp;rdquo; to describe the model.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;code&gt;Link&lt;/code&gt; struct is simply used for plotting reasons. It contains the coordinates of the two ends of a line when plotting the lattice.&lt;/p&gt;
+&lt;p&gt;To plot a lattice, simply &lt;code&gt;plot(latt::LatticeModel2D)&lt;/code&gt; will do. To plot local observables on it, just &lt;code&gt;plot(latt::LatticeModel2D, obs::Vector{Float64})&lt;/code&gt;. This requires the package &lt;code&gt;Plots&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The function &lt;code&gt;square_lr&lt;/code&gt; creates a square lattice. It returns a &lt;code&gt;LatticeModel2D&lt;/code&gt; corresponding to the two-dimensional square lattice of dimensions (Nx,Ny). By default the lattice has open boundaries, but can be made periodic in the $y$ direction by specifying the keyword argument &lt;code&gt;yperiodic=true&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Long-range couplings are included, with maximum coupling range specified by the keyword argument &lt;code&gt;max_nnorder&lt;/code&gt;.&lt;/p&gt;
+&lt;h1 id=&#34;time-dependent-variational-principle-tdvp&#34;&gt;Time dependent variational principle (TDVP)&lt;/h1&gt;
+&lt;p&gt;&lt;code&gt;tdvp.jl&lt;/code&gt; provides an implementation of TDVP. In contrast to TEBD, it can calculate the time evolution of systems with long-range interactions. &lt;code&gt;simpletdvp.jl&lt;/code&gt; provides a simpler implementation for pedagogical reasons.&lt;/p&gt;
+&lt;h1 id=&#34;a-full-example&#34;&gt;A full example&lt;/h1&gt;
+&lt;h4 id=&#34;import-packages&#34;&gt;Import packages&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;using ITensors
+using ColorSchemes
+include(&amp;quot;../latticemodels.jl&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;define-a-2d-lattice&#34;&gt;Define a 2D lattice&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;Ny = 6
+Nx = 4
+N = Nx*Ny
+sites = siteinds(&amp;quot;S=1/2&amp;quot;, N)
+# Obtain a LatticeModel2D struct
+# which defines a lattice
+latt = square_lr(Nx, Ny)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;define-a-hamiltonian&#34;&gt;Define a Hamiltonian&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;# Define the Ising spin Hamiltonian on this lattice
+ampo = AutoMPO()
+for b in latt.locterms
+    ampo .+= &amp;quot;Sz&amp;quot;, b.s[1], &amp;quot;Sz&amp;quot;, b.s[2]
+end
+H = MPO(ampo, sites)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;run-dmrg-algorithm-to-obtain-the-ground-state&#34;&gt;Run DMRG algorithm to obtain the ground state&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;# Initialize wavefunction to a random MPS
+# of bond-dimension 2
+psi0 = randomMPS(sites, 2)
+sweeps = Sweeps(10)
+maxdim!(sweeps,20,60,100,100,200,400,800)
+cutoff!(sweeps,1E-8)
+@show sweeps
+energy,psi = dmrg(H,psi0,sweeps)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;measure-local-quantities-and-plot&#34;&gt;Measure local quantities and plot&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Julia&#34;&gt;function meas_Sz(psi, n)
+    psi = orthogonalize(psi,n)
+    sn = siteind(psi, n)
+    Sz = scalar(dag(prime(psi[n],&amp;quot;Site&amp;quot;))*op(&amp;quot;Sz&amp;quot;,sn)*psi[n])
+    return real(Sz)
+end
+
+Sz_list = [meas_Sz(psi, n) for n = 1:N]
+plot(latt, Sz_list)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
     <item>
       <title>Graduation</title>

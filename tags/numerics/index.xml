@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Wenjun Zhang</title>
-    <link>https://zhang-wenjun.github.io/post/</link>
-      <atom:link href="https://zhang-wenjun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Numerics | Wenjun Zhang</title>
+    <link>https://zhang-wenjun.github.io/tags/numerics/</link>
+      <atom:link href="https://zhang-wenjun.github.io/tags/numerics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Numerics</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Wenjun Zhang © 2021</copyright><lastBuildDate>Tue, 29 Jun 2021 19:17:11 +0800</lastBuildDate>
     <image>
       <url>https://zhang-wenjun.github.io/img/icon-192.png</url>
-      <title>Posts</title>
-      <link>https://zhang-wenjun.github.io/post/</link>
+      <title>Numerics</title>
+      <link>https://zhang-wenjun.github.io/tags/numerics/</link>
     </image>
     
     <item>
@@ -215,17 +215,6 @@ end
 Sz_list = [meas_Sz(psi, n) for n = 1:N]
 plot(latt, Sz_list)
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Graduation</title>
-      <link>https://zhang-wenjun.github.io/post/graduation/</link>
-      <pubDate>Sat, 25 Jul 2020 16:34:29 +0800</pubDate>
-      <guid>https://zhang-wenjun.github.io/post/graduation/</guid>
-      <description>&lt;p&gt;I had never expected this pandemic spreading all over the globe and keeping all of us stuck in home. No one had. By the time I write down this post, it seems to have been 9 months since I worked in a lab last time. In the 2020 Spring semester, the very last semester of my undergraduate life, we have to prepare our bachelor thesis at home (with poor access to all the journals!), and change from an experimental subject to a theoretical one. This morning, when I routinely checked in my PKU portal to fill in the &lt;em&gt;fighting-the-pandemic&lt;/em&gt; sheet, I couldn&#39;t find it anywhere. The portal has been modified from a student account to an alumni one. It is said that we don&#39;t have access to the PKU disk anymore, either. Luckily I&#39;m not a frequent user. It was exactly this moment when I realized, I graduated. I believe this is gonna be the most special and unforgettable graduation. Thanks to all the doctors, nurses, and volunteers, and all those heros whose names I don&#39;t know, we&#39;re getting back to a more or less normal life, though we&#39;d still better wear face masks. Thank you all to the &amp;lsquo;soldiers&amp;rsquo; fighting in the frontline against the pandemic!&lt;/p&gt;
-&lt;p&gt;Actually, staying at home is not that bad. I have to say that I indeed acquire something thanks to this staying-at-home thing. Earlier this year when I worked as an undergraduate research assistant at MIT, two of my friends who are Ph.D. students at the Research Laboratory of Electronics, shared with me that every physics student should know something about the &lt;strong&gt;general relativity&lt;/strong&gt; and the &lt;strong&gt;quantum field theory&lt;/strong&gt;. I didn&#39;t have many ideas about this at that time. In this half a year, I followed a course in GR at PKU. I really like the idea of describing the whole world from a geometrical point of view. Both the interesting physical intuition and the beautiful mathematical structure impressed me. I also learned something about the QFT by myself. Though there are many techniques introduced in the texts, I don&#39;t feel like getting too much insights. I even thought the QFT was nothing but a bunch of dirty tools, which is certainly not true. Recently I am doing a survey on the quantum spin liquids. I instantaneously find myself quite interested in the topological order or the more general concept quantum order. I read some papers by Prof. Xiao-Gang Wen at MIT and really liked them. This leads me to reading his texts, &lt;em&gt;Quantum Field Theory of Many Body Systems From the Origin of Sound to an Origin of Light and Electrons&lt;/em&gt;. I am really fascinated by his explanation and his emphasis the origin of our fundamental particles. They could be just low-energy excitations of some unknown field theory. And our universe could be nothing but a vacuum state that we&#39;re familiar with in the condensed matter context. These two things made me again curious about the origin of our universe.&lt;/p&gt;
-&lt;p&gt;Okay. That&#39;s all for my first post. It is more like a diary. But whatever, I&#39;ll put up some of my notes on the quantum spin liquids, which is more research oriented.&lt;/p&gt;
 </description>
     </item>
     
