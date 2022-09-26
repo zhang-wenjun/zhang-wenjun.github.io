@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. student at <a href='https://www.tsinghua.edu.cn/'>Tsinghua University</a>.
 
