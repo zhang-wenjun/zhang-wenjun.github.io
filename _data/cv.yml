@@ -3,6 +3,8 @@
   contents:
     - name: Full Name
       value: Wenjun Zhang
+    - name: Current
+      value: Ph.D. student at Tsinghua University
     - name: Languages
       value: Chinese, English
 
@@ -11,50 +13,59 @@
   contents:
     - title: Master of Science
       institution: University of Chicago, USA
-      year: 2021
+      year: 2020 - 2021
       description:
         - 'Advisor: Prof. Hannes Bernien.'
+        - 'Topic: Quantum simulation of spin liquid states with Rydberg atom arrays.'
     - title: Bachelor of science
       institution: Peking University, China
-      year: 2020
+      year: 2016 - 2020
       description:
         - 'Advisor: Prof. Xiaoji Zhou.'
+        - 'Thesis: Quantum Simulation of Relativistic Phenomena with Ultracold Atoms in a Bipartite Hexagonal Optical Lattice'
 
 - title: Research Experience
   type: time_table
   contents:
+    - title: Ph.D. student
+      institution: Physics Department, Tsinghua University
+      year: 2022 - NOW
+
     - title: Research Assistant
       institution: Physics Department, Tsinghua University
       year: 2020 - 2022
-      description:
-        - High-bandwidth low-noise PID lock servo.
-        - Tensor network algorithms for numerical simulation.
-        - Involved in building up a new apparatus using Rydberg atoms.
 
-    - title: Research Assistant | Visiting Undergraduate
-      institution: <a href='http://qeg.mit.edu/'>Quantum engineering group</a>, RLE, MIT
-      year: 2019 - 2020
-      description:
-        - Implemented the dynamical quantum typicality (DQT) and Krylov subspace method.
-        - Calculated the correlation in one-dimensional quantum spin chains for up to 28 spins.
+    - title: Graduate student
+      institution: PME, University of Chicago
+      year: 2020 - 2021
 
-    - title: Research Assistant | Summer Intern
-      institution: <a href='https://ultracold.physics.purdue.edu/'>Ultracold quantum gas and quantum optics group</a>, Purdue University
-      year: 2019
-      description:
-        - Characterized the aberration of an *in-situ* imaging system for two-dimensional (2D) quantum gas.
-        - Extracted the density-density correlation of the 2D quantum gas.
-
-    - title: Research Assistant | Summer Intern
+    - title: Undergraduate student
       institution: <a href='https://iqe.pku.edu.cn/'>Institute of Quantum Electronics</a>, Peking University
       year: 2018 - 2020
       description:
         - Designed an optical potential for excited band population in hexagonal optical lattice.
         - Analyzed the multi-orbital mechanism for a driven optical lattice.
 
+    - title: Visiting Undergraduate
+      institution: <a href='http://qeg.mit.edu/'>Quantum engineering group</a>, RLE, MIT
+      year: 2019 - 2020
+      description:
+        - Implemented the dynamical quantum typicality (DQT) and Krylov subspace method.
+        - Calculated the correlation in one-dimensional quantum spin chains for up to 28 spins.
+
+    - title: Summer Intern
+      institution: <a href='https://ultracold.physics.purdue.edu/'>Ultracold quantum gas and quantum optics group</a>, Purdue University
+      year: 2019
+      description:
+        - Characterized the aberration of an *in-situ* imaging system for two-dimensional (2D) quantum gas.
+        - Extracted the density-density correlation of the 2D quantum gas.
+
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2020
+      items: 
+        - PME Graduate Fellowship
     - year: 2019
       items: 
         - National Scholarship
