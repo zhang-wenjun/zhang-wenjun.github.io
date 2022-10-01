@@ -124,7 +124,7 @@ function foo(arg1, arg2, ...,
              ...;
              kwargs...)
 {% endhighlight %}
-Note that the input of normal arguments must obey the sequence in definition. Declaration of data type is recommended but not necessary. They are separated from keyword arguments by a semicolon instead of a comma. As an example, let's calculate define a function to calculate $x^s \pm y^s$ with default value for $s$ being $2$ and $\pm$ specified by a keyword argument.
+Note that the input of normal arguments must obey the sequence in definition. Declaration of data type is recommended but not necessary. They are separated from keyword arguments by a semicolon instead of a comma. As an example, let's calculate define a function to calculate $$x^s \pm y^s$$ with default value for $$s$$ being $$2$$ and $$\pm$$ specified by a keyword argument.
 {% highlight Julia linenos %}
 """
     powerSum(x::Float64, y::Float64,
@@ -188,8 +188,8 @@ Then read these for support of 2D and long-range coupled systems.
 The support for two-dimensional systems or long-range coupled systems is limited in ITensors Julia. I made another implementation with better support. They are defined in `latticemodels.jl`.
 
 A lattice is described by a `LatticeModel2D` instance. It contains
-- `LatticeModel2D.xs`: a vector containing the $x$-coordinates of the lattice sites.
-- `LatticeModel2D.ys`: a vector containing the $y$-coordinates of the lattice sites.
+- `LatticeModel2D.xs`: a vector containing the $$x$$-coordinates of the lattice sites.
+- `LatticeModel2D.ys`: a vector containing the $$y$$-coordinates of the lattice sites.
 - `LatticeModel2D.cplterms`: a vector of `CplTerm` instances.
 - `LatticeModel2D.links`: a vector of `Link` instances.
 
@@ -203,7 +203,7 @@ The `Link` struct is simply used for plotting reasons. It contains the coordinat
 
 To plot a lattice, simply `plot(latt::LatticeModel2D)` will do. To plot local observables on it, just `plot(latt::LatticeModel2D, obs::Vector{Float64})`. This requires the package `Plots`.
 
-The function `square_lr` creates a square lattice. It returns a `LatticeModel2D` corresponding to the two-dimensional square lattice of dimensions (Nx,Ny). By default the lattice has open boundaries, but can be made periodic in the $y$ direction by specifying the keyword argument `yperiodic=true`.
+The function `square_lr` creates a square lattice. It returns a `LatticeModel2D` corresponding to the two-dimensional square lattice of dimensions (Nx,Ny). By default the lattice has open boundaries, but can be made periodic in the $$y$$ direction by specifying the keyword argument `yperiodic=true`.
 
 Long-range couplings are included, with maximum coupling range specified by the keyword argument `max_nnorder`.
 
