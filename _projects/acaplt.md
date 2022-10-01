@@ -1,6 +1,6 @@
 ---
 layout: page
-title: AcaPlt
+title: 'AcaPlt'
 description: A MATLAB package for academic plotting.
 img: assets/img/projects/acaplt.png
 importance: 1
@@ -35,6 +35,6 @@ axis([0, 2*pi, -1.1, 1.1]);
 The script above generates
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/acaplt.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/projects/acaplt.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
