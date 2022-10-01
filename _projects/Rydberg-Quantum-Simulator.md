@@ -72,7 +72,7 @@ The data types in Julia are similar to other languages. Write a line like `x = 1
 An interesting fact of Julia is that it accepts Unicode characters as variable names. For example, one can write `δ = 2`. More interesting is with Julia in VSCode one can type <img src="https://render.githubusercontent.com/render/math?math=\LaTeX"> when programming. For example, one can type `δ` by typing `\delta` and then press `Tab`.
 
 Note that the scope of variable (or its living period) is similar to that in *C/C++*. So if one wants to define a variable with initial value controlled by some condition, one must ensure that the definition is in proper position. For example, the codes below cannot run.
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 for i = 1:N
     if i == 1
         var = init_value
@@ -82,7 +82,7 @@ for i = 1:N
 end
 {% endhighlight %}
 This is because `var` is defined in `i = 1` loop and is destructed when the loop goes to `i = 2`. Then `var` has no definition when the program calculates `2 * var`. Instead, one should write
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 var = some_value # with corresponding data type
 for i = 1:N
     if i == 1
@@ -97,7 +97,7 @@ One can find an example in `example/ex_MPS.jl`. See the `bond` variable in funct
 Defining an array is the same as in *Python*. `arr = [1, 2, 3]` defines a 1-by-3 array `Array{Int64, 1}`. One can define an uninitialized multi-dimensional array by `Array{T, N}(undef, dims...)`. Here `...` means it accepts multiple arguments, `N` is the order of the tensor, and `T` is the data type. For example, `mat = Array{Float64, 2}(undef, 2, 3)` creates a 2-by-3 matrix. The argument `N` can be omitted, `mat = Array{Float64}(undef, 2, 3)`. Access the element of an array by using `arr[pos1, pos2, ...]`. Note the first element of an array is `arr[1]` instead of `arr[0]`. The one-dimensional and two-dimensional arrays have special aliases. `Vector{T}` is the same as `Array{T, 1}` and `Matrix{T}` is the same as `Array{T, 2}`.
 
 One can define a struct by
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 struct StructName
     var1::<datatype1>
     var2::<datatype2>
@@ -107,11 +107,11 @@ end
 It automatically generates a constructor `StructName(var1::<datatype1>, var2::<datatype2>)`. 
 
 `Tuple` is also an important variable type. It is defined by, e.g., `(2, 3)`. Julia supports the operator `+=`. `var1 += var2` is equivalent to `var1 = var1 + var2`. How are codes like below processed?
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 var1 += var2, var3, var4
 {% endhighlight %}
 This is equivalent to 
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 var1 = var1 + (var2, var3, var4)
 {% endhighlight %}
 This is how the `AutoMPO` works.
@@ -119,7 +119,7 @@ This is how the `AutoMPO` works.
 ### Functions
 
 The definition of functions is very much like that in MATLAB. But it supports default value and keyword arguments.
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 """
 This is a documentation for the function.
 One can use Markdown here.
@@ -131,7 +131,7 @@ function foo(arg1, arg2, ...,
              kwargs...)
 {% endhighlight %}
 Note that the input of normal arguments must obey the sequence in definition. Declaration of data type is recommended but not necessary. They are separated from keyword arguments by a semicolon instead of a comma. As an example, let's calculate define a function to calculate $x^s \pm y^s$ with default value for $s$ being $2$ and $\pm$ specified by a keyword argument.
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 """
     powerSum(x::Float64, y::Float64,
              s::Float64=2;
@@ -220,13 +220,13 @@ Long-range couplings are included, with maximum coupling range specified by the 
 # A full example
 
 #### Import packages
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 using ITensors
 using ColorSchemes
 include("../latticemodels.jl")
 {% endhighlight %}
 #### Define a 2D lattice
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 Ny = 6
 Nx = 4
 N = Nx*Ny
@@ -236,7 +236,7 @@ sites = siteinds("S=1/2", N)
 latt = square_lr(Nx, Ny)
 {% endhighlight %}
 #### Define a Hamiltonian
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 # Define the Ising spin Hamiltonian on this lattice
 ampo = AutoMPO()
 for b in latt.locterms
@@ -245,7 +245,7 @@ end
 H = MPO(ampo, sites)
 {% endhighlight %}
 #### Run DMRG algorithm to obtain the ground state
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 # Initialize wavefunction to a random MPS
 # of bond-dimension 2
 psi0 = randomMPS(sites, 2)
@@ -256,7 +256,7 @@ cutoff!(sweeps,1E-8)
 energy,psi = dmrg(H,psi0,sweeps)
 {% endhighlight %}
 #### Measure local quantities and plot
-{% highligh Julia linenos %}
+{% highlight Julia linenos %}
 function meas_Sz(psi, n)
     psi = orthogonalize(psi,n)
     sn = siteind(psi, n)
