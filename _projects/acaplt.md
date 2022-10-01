@@ -6,6 +6,12 @@ img: assets/img/projects/acaplt.png
 importance: 1
 ---
 
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository="zhang-wenjun/AcaPlt" %}
+</div>
+{% endif %}
+
 ## Installation
 
 The installation is extremely simple. Just download the `AcaPlt.m` file and add the directory where it locates into your *Search Path*.
