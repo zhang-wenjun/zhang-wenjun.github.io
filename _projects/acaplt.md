@@ -3,18 +3,18 @@ layout: page
 title: 'AcaPlt'
 description: A MATLAB package for academic plotting.
 img: assets/img/projects/acaplt.png
-importance: 1
+importance: 2
 ---
+
+## Installation
+
+The installation is extremely simple. Just download the `AcaPlt.m` file from the GitHub repository and add the directory where it locates into your *Search Path*.
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repo.html repository="zhang-wenjun/AcaPlt" %}
 </div>
 {% endif %}
-
-## Installation
-
-The installation is extremely simple. Just download the `AcaPlt.m` file and add the directory where it locates into your *Search Path*.
 
 ## Usage
 
@@ -41,6 +41,10 @@ axis([0, 2*pi, -1.1, 1.1]);
 The script above generates
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/acaplt.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
