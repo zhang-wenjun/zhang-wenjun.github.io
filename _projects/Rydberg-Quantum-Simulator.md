@@ -2,11 +2,9 @@
 layout: page
 title: Rydberg-Quantum-Simulator
 description: Numerical simulation of Rydberg atomic array system by using MPS methods.
-img: assets/img/projects/LiebKagome.gif
+img: assets/img/projects/rydberg-quantum-simulator.png
 importance: 1
 ---
-
-# Rydberg Quantum Simulator
 
 This project contains codes for numerical simulation of Rydberg atomic array system by using MPS methods. Codes in the `examples` folder are designed for pedagogical reasons. The codes are based on the `ITensors` package in Julia.
 
@@ -27,11 +25,7 @@ The installation is quite simple. Just download a version according to your oper
 After you successfully install Julia, you can open a terminal window to start programming, like this.
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/projects/julia-terminal.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
     </div>
 </div>
 Its name is REPL (read-eval-print loop).
