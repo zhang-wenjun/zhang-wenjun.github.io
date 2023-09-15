@@ -28,7 +28,7 @@
   type: time_table
   contents:
     - title: Ph.D. student
-      institution: Physics Department, Tsinghua University
+      institution: <a href='http://ultracold.cn/'>Ultracold Lab</a>, Physics Department, Tsinghua University
       year: 2022 - NOW
 
     - title: Research assistant
