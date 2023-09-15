@@ -233,7 +233,7 @@ scholar:
   last_name: [Zhang]
   first_name: [Wenjun]
 
-  style: apa
+  style: american-physics-society
   locale: en
 
   source: /_bibliography/
